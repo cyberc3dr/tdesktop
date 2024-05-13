@@ -654,7 +654,7 @@ auto DcOptions::lookup(
 			: Variants::IPv4;
 		result.data[address][Variants::Tcp].push_back(endpoint);
 		if (!(flags & (Flag::f_tcpo_only | Flag::f_secret))) {
-			result.data[address][Variants::Http].push_back(endpoint);
+			// result.data[address][Variants::Http].push_back(endpoint);
 		}
 	}
 	if (type == DcType::MediaCluster) {
