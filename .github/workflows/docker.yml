@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      IMAGE_TAG: ghcr.io/${{ github.repository }}/centos_env:latest
+      IMAGE_TAG: ghcr.io/telegramdesktop/tdesktop/centos_env/centos_env:latest
 
     steps:
       - name: Clone.
